@@ -108,6 +108,9 @@ html, body {
     padding-bottom: 10px;
 }
 
+#iconT {
+    display: flex;
+}
 #iconT i{
    margin-right: 7px;
     
@@ -297,6 +300,25 @@ html, body {
         flex-direction: column;
     }
 
+    #b-threeBottom {
+        min-height: 40vh;
+        
+    } 
+
+    .b-four-review {
+        position: relative;
+    }
+    .b-four-review #comments {
+        margin-left: 60px;
+
+    }
+    .b-four-review #comments p {
+        width: initial;
+    }
+
+    .b-four-review #photo {
+        position: absolute;
+    }
     #b-four {
         width: 100%;
     }
